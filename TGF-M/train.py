@@ -118,9 +118,9 @@ def main():
     parser.add_argument('--batch_size', type=int, default=512,
                         help='input batch size for training (default: 512)')
     parser.add_argument('--warmups', type=int, default=20,
-                        help='number of warmups to train (default: 40)')
-    parser.add_argument('--epochs', type=int, default=280,
-                        help='number of epochs to train (default: 340)')
+                        help='number of warmups to train (default: 20)')
+    parser.add_argument('--epochs', type=int, default=80,
+                        help='number of epochs to train (default: 80)')
     parser.add_argument('--num_workers', type=int, default=4,
                         help='number of workers (default: 4)')
     parser.add_argument('--log_dir', type=str, default="log",
