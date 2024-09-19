@@ -132,7 +132,7 @@ def main():
     args = parser.parse_args()
     print(args)
 
-    dataset = PygPCQM4Mv2Dataset(root = '/media/aita130/AIDD/hw/CoAtGIN-main/model/dataset')
+    dataset = PygPCQM4Mv2Dataset(root = '../dataset')
     split_idx = dataset.get_idx_split()
 
     evaluator = PCQM4Mv2Evaluator()
