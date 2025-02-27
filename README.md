@@ -2,7 +2,8 @@
 
 __Abstract:__ Accurate prediction of molecular properties is a key component of Artificial Intelligence-driven Drug Design (AIDD). Despite significant progress in improving these predictive models, balancing accuracy with computational complexity remains a challenge. Molecular topological and geometric features encapsulate rich spatial information essential for enhancing prediction accuracy, but their extraction increases model complexity. Therefore, effectively leveraging these features is pivotal to overcoming this challenge. We propose a novel predictive model named TGF-M (Topology-augmented Geometric Features for Molecular Property Prediction), which significantly enhances the model’s ability to capture both topological and geometric features. On the re-segmented PCQM4Mv2 dataset, TGF-M performs remarkably, achieving a low mean absolute error (MAE) of 0.0647 in the HOMO-LUMO gap prediction task with only 6.4M parameters. Compared to two recent state-of-the-art models evaluated within a unified validation framework, TGF-M demonstrates comparable performance with less than one-tenth of the parameters. We conducted an in-depth analysis of TGF-M's chemical interpretability. The results further validate the method’s effectiveness in leveraging complex molecular topology and geometry during model learning, underscoring its potential and advantages. 
 
-![](Fig.1.png)
+![](overall.jpg)
+![](Predictor.jpg)
 
 ## Getting Started
 
