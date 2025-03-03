@@ -29,30 +29,16 @@ pip install --upgrade tensorboard==2.9.1
 pip install --upgrade tensorboardX==2.5.1
 ```
 
-### Dataset
-
-You can download the pre-training data and benchmarks used in the paper [here](https://drive.google.com/file/d/1aDtN6Qqddwwn2x612kWz9g0xQcuAtzDE/view?usp=sharing) and extract the zip file under `./data` folder. The data for pre-training can be found in `pubchem-10m-clean.txt`. All the databases for fine-tuning are saved in the folder under the benchmark name. You can also find the benchmarks from [MoleculeNet](https://moleculenet.org/).
-
-### Data preprocessing
-To convert SMILES strings into molecular graphs using RDKit, refer to the data processing code available in `dataset/dataset.py`.
-
-RDKit link[https://github.com/rdkit/rdkit]
 
 ### Pre-training
 
-To train the DIG-Mol, where the configurations and detailed explaination for each variable can be found in `config.yaml`
+To train the TGF-M
 ```
+$ cd TGF-M
 $ python train.py
 ```
 
-### Fine-tuning 
 
-To fine-tune the DIG-Mol pre-trained model on downstream molecular benchmarks, where the configurations and detailed explaination for each variable can be found in `config_finetune.yaml`
-```
-$ python train.py
-```
 
-### Pre-trained models
 
-We also provide pre-trained DIGNN models, which can be found in `model.pth` and `model_50.pth` for different pretraining epoches respectively. 
 
