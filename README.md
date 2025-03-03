@@ -42,14 +42,14 @@ RDKit link[https://github.com/rdkit/rdkit]
 
 To train the DIG-Mol, where the configurations and detailed explaination for each variable can be found in `config.yaml`
 ```
-$ python DIG-Mol.py
+$ python train.py
 ```
 
 ### Fine-tuning 
 
 To fine-tune the DIG-Mol pre-trained model on downstream molecular benchmarks, where the configurations and detailed explaination for each variable can be found in `config_finetune.yaml`
 ```
-$ python DIG-Mol_finetune.py
+$ python train.py
 ```
 
 ### Pre-trained models
