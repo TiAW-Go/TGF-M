@@ -30,7 +30,7 @@ pip install --upgrade tensorboardX==2.5.1
 ```
 
 
-### Pre-training
+### Training
 
 To train the TGF-M
 ```
